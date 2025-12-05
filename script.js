@@ -4,7 +4,7 @@ window.onload = function() {
 
 async function apiresponse() {
     try {
-        const response = await fetch('https://newsapi.org/v2/top-headlines?country=us&apiKey=5da4dcc2cd6d4195834d7dcab906bac0');
+        const response = await fetch('https://newsapi.org/v2/top-headlines?country=us&apiKey=5da4dcc2cd6d4195834d7d');
         return await response.json();
     } catch (error) {
         console.log('Error fetching data:', error);
